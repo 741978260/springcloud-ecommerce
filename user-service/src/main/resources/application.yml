@@ -14,5 +14,6 @@ eureka:
     register-with-eureka: true
     #是否需要从eureka上检索服务
     fetch-registry: true
+###测试测试测试。。。。
 
 

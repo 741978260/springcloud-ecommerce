@@ -1,0 +1,13 @@
+###服务端口号
+server:
+  port: 8763
+###起个名字作为服务名称(该服务注册到eureka注册中心的名称，比如订单服务)
+spring:
+  application:
+    name: order-service
+eureka:
+  client:
+    #服务注册到eureka注册中心的地址
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+0
